@@ -9,7 +9,7 @@ a { text-decoration:none;}
 .top-bar{
 	position:fixed;
 	width:100%; 
-	background: blue;
+	background: rgb(201, 196, 196);
 	}
 .clear { clear:both; }
 
@@ -166,14 +166,20 @@ a { text-decoration:none;}
 	padding-top: 20px;
 	text-align: center;
 	list-style:none;
+	background-color: none;
 }
 .social ul li {
 	padding: 5px;
 	display: inline;
-	background-color: white;
+	background-color:rgb(26, 25, 25);
+	
 }
 .fa {
-	border-radius: 10px;
+
+	color: #ffff;
+}
+.social .fa :hover{
+	background-color: blue;
 }
 .left{
 	color: white;
@@ -186,4 +192,9 @@ a { text-decoration:none;}
 	float: right;
 	margin: 20px;
 	margin-right: 40px;
+}
+.copyright{
+	color:white;
+	text-align: center;
+	padding-top: 1rem;
 }
