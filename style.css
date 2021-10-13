@@ -29,7 +29,7 @@ a { text-decoration:none;}
 	font-size: 125%;
 	color:white; }
 .top-left ul a:hover{
-	color: crimson;
+	color: rgb(26, 25, 25);
 }
 
 .top-right{
@@ -42,16 +42,16 @@ a { text-decoration:none;}
 	border:0;
 	margin :5px;
 	float:left;
+	height:2rem;
 	border-radius:10px;}
 .top-right button{
 	background:lightred;
 	text-align:center;
 	width:40px;
-	height:20px;
+	height:2rem;
 	margin:2px;
 	border-radius:10px;
 	float:right;}
-
 
 .identity {
 	display:table;
